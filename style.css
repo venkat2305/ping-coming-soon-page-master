@@ -26,7 +26,7 @@ body {
 }
 
 .wrapper {
-  width: 400px;
+  max-width: 400px;
   /* background-color: var(--Pale-Blue); */
   display: flex;
   flex-direction: column;
@@ -59,9 +59,8 @@ span {
 
 input {
   padding: 15px 0px;
-  width: 80%;
+  width: 320px;
   border-radius: 20px;
-
   border-color: var(--Pale-Blue);
   text-align: center;
 }
@@ -76,12 +75,17 @@ input {
   display: none;
 }
 
+.input-error-submit{
+    display: flex;
+    flex-direction: column;
+}
+
 #notifybtn {
   margin-top: 17px;
   background-color: var(--blue);
   color: white;
   padding: 15px 0px;
-  width: 80%;
+  width: 320px;
   border-radius: 20px;
   display: block;
   border: none;
@@ -112,4 +116,21 @@ footer p {
   font-size: 12px;
   text-align: center;
   color: var(--Gray);
+}
+
+@media screen and (min-width: 1000px){
+    .wrapper{
+        min-width: 700px;
+        padding: 40px;
+    }
+    
+    #notifybtn{
+        display: inline;
+        width: 150px;
+    }
+
+    .input-error-submit{
+        display: block;
+    }
+    
 }

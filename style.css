@@ -75,9 +75,9 @@ input {
   display: none;
 }
 
-.input-error-submit{
-    display: flex;
-    flex-direction: column;
+.input-error-submit {
+  display: flex;
+  flex-direction: column;
 }
 
 #notifybtn {
@@ -118,19 +118,18 @@ footer p {
   color: var(--Gray);
 }
 
-@media screen and (min-width: 1000px){
-    .wrapper{
-        min-width: 700px;
-        padding: 40px;
-    }
-    
-    #notifybtn{
-        display: inline;
-        width: 150px;
-    }
+@media screen and (min-width: 1000px) {
+  .wrapper {
+    min-width: 700px;
+    padding: 40px;
+  }
 
-    .input-error-submit{
-        display: block;
-    }
-    
+  #notifybtn {
+    display: inline;
+    width: 150px;
+  }
+
+  .input-error-submit {
+    display: block;
+  }
 }

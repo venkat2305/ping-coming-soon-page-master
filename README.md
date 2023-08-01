@@ -1,5 +1,10 @@
 # Frontend Mentor - Ping coming soon page
 
+## To do
+1. style the placeholder text
+2. hover state for sm logos
+
+
 ## The challenge
 
 Your challenge is to build out this Coming Soon page and get it looking as close to the design as possible.

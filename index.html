@@ -10,23 +10,43 @@
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
-    <title>Frontend Mentor | Ping coming soon page</title>
+    <title>Ping coming soon page</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <img src="./images/logo.svg" alt="logo" />
 
-    <h1 id="ab">We are launching soon!</h1>
-    <p>Subscribe and get notified</p>
+    <div class="wrapper">
+      <div class="logo">
+        <img src="./images/logo.svg" alt="logo" />
+      </div>
+      
 
-    <input id="emailinput" type="email" placeholder="your email address" />
-    <p id="error1" class="hide">
-      Whoops! It looks like you forgot to add your email
-    </p>
-    <p id="error2" class="hide">Please provide a valid email address</p>
-    <button id="notifybtn">Notify Me</button>
+      <p id="heading">We are launching <span>soon!</span></p>
+      <p id="subscribe">Subscribe and get notified</p>
+  
+      <input id="emailinput" type="email" placeholder="your email address" />
+      <p id="error1" class="hide">
+        Whoops! It looks like you forgot to add your email
+      </p>
+      <p id="error2" class="hide">Please provide a valid email address</p>
+      <button id="notifybtn">Notify Me</button>
+  
+      
+  
+      <img id="ills" src="images/illustration-dashboard.png" alt="">
 
-    <p>&copy; Copyright Ping. All rights reserved.</p>
+      <div class="smlogos">
+        <a href="#"><img src="images/logo-facebook.svg" alt="facebook" /></a>
+        <a href="#"><img src="images/logo-instagram.svg" alt="instagram" /></a>
+        <a href="#"><img src="images/logo-twitter.svg" alt="twitter" /></a>
+    
+      </div>
+      
+      <footer>
+        <p>&copy; Copyright Ping. All rights reserved.</p>
+      </footer>
+      
+    </div>
 
     <script src="index.js"></script>
   </body>

@@ -3,6 +3,7 @@
 ## To do
 1. style the placeholder text
 2. hover state for sm logos
+3. issue with border color of input
 
 
 ## The challenge

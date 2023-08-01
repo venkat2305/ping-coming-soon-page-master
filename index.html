@@ -14,38 +14,36 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-
     <div class="wrapper">
       <div class="logo">
         <img src="./images/logo.svg" alt="logo" />
       </div>
-      
 
       <p id="heading">We are launching <span>soon!</span></p>
       <p id="subscribe">Subscribe and get notified</p>
-  
+
       <input id="emailinput" type="email" placeholder="your email address" />
-      <p id="error1" class="hide">
-        Whoops! It looks like you forgot to add your email
-      </p>
-      <p id="error2" class="hide">Please provide a valid email address</p>
+
+      <div class="errors">
+        <p id="error1" class="hide">
+          Whoops! It looks like you forgot to add your email
+        </p>
+        <p id="error2" class="hide">Please provide a valid email address</p>
+      </div>
+
       <button id="notifybtn">Notify Me</button>
-  
-      
-  
-      <img id="ills" src="images/illustration-dashboard.png" alt="">
+
+      <img id="ills" src="images/illustration-dashboard.png" alt="" />
 
       <div class="smlogos">
         <a href="#"><img src="images/logo-facebook.svg" alt="facebook" /></a>
         <a href="#"><img src="images/logo-instagram.svg" alt="instagram" /></a>
         <a href="#"><img src="images/logo-twitter.svg" alt="twitter" /></a>
-    
       </div>
-      
+
       <footer>
         <p>&copy; Copyright Ping. All rights reserved.</p>
       </footer>
-      
     </div>
 
     <script src="index.js"></script>

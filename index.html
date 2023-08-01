@@ -1,22 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <title>Frontend Mentor | Ping coming soon page</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <title>Frontend Mentor | Ping coming soon page</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <img src="./images/logo.svg" alt="logo" />
 
-  <img src="./images/logo.svg" alt="logo">
+    <h1 id="ab">We are launching soon!</h1>
+    <p>Subscribe and get notified</p>
 
-  <h1>We are launching soon!</h1>
-  <p>Subscribe and get notified</p>
-  <form action="">
-    <input type="email" placeholder="your email address">
-    <button  >Notify Me</button>
-  </form>
-  <p>&copy; Copyright Ping. All rights reserved.</p>
+    <input id="emailinput" type="email" placeholder="your email address" />
+    <p id="error1" class="hide">
+      Whoops! It looks like you forgot to add your email
+    </p>
+    <p id="error2" class="hide">Please provide a valid email address</p>
+    <button id="notifybtn">Notify Me</button>
 
-</body>
+    <p>&copy; Copyright Ping. All rights reserved.</p>
+
+    <script src="index.js"></script>
+  </body>
 </html>
